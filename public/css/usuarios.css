@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'courier', sans-serif; /*debo ver mas variedades o si puedo ponerlas en todo mennos el header*/
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1750548057/Central_Loquendo_City_cygssa.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 96vh;
+    width: 96vh;
+}
+.header{
+    height: 13%;
+    width: 1340px;
+    color: white;
+    background-color: black;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259614/ca08cff753ccdc0c5666300bfb821fce_m73w1d.jpg");
+    border: solid 5px black;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: /*37*/45%;
+}
+.titulo{
+    display:flex;
+    width:50%;
+   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-style:oblique;
+    font-weight: lighter;
+    text-decoration: overline; /*debo ver si puedo hacer la linea roja*/
+    text-decoration-color: red;
+}
+.rango{
+    display:flex;
+    width: 25%;
+}
+.body2{
+    color:white;
+    border: solid 5px black;
+    width: 1140px; 
+    height: 87%;
+    margin-left: 110px;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752176641/rojoLoquendo_cbsjn0.jpg") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    flex-wrap: nowrap;
+    align-items: center;
+    /*display: inline-block;*/
+}
+.cajaUsuario{
+    width:700px;
+    height: 230px;
+    border: solid 5px black;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259614/ca08cff753ccdc0c5666300bfb821fce_m73w1d.jpg");
+}
+.pfp{
+    width: 250px;
+    height: 155px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.items2, .items{
+    display: flex;
+    flex-direction: column;
+}
+.itemsito{
+    color:white;
+    /*pon la raya de abajo*/
+    text-decoration: underline; /*debo ver si puedo hacer la linea roja*/
+    text-decoration-color: white/*rebeccapurple*/;
+}
+.btn{
+    color: white;
+    height: 35px;
+    width: 68px;
+    background-color: red;
+    /*cambiales el diseño*/
+}
+.btnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 25px;
+    margin-top: 5px;
+}

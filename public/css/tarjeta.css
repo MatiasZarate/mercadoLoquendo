@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    font-family: 'courier', sans-serif; /*debo ver mas variedades o si puedo ponerlas en todo mennos el header*/
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1750548057/Central_Loquendo_City_cygssa.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 96vh;
+    width: 96vh;
+}
+.header{
+    height: 13%;
+    width: 1340px;
+    color: white;
+    background-color: black;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259614/ca08cff753ccdc0c5666300bfb821fce_m73w1d.jpg");
+    border: solid 5px black;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: /*37*/45%;
+}
+.titulo{
+    display:flex;
+    width:50%;
+   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-style:oblique;
+    font-weight: lighter;
+    text-decoration: overline; /*debo ver si puedo hacer la linea roja*/
+    text-decoration-color: red;
+}
+.rango{
+    display:flex;
+    width: 25%;
+}
+.body2{
+    border: solid 5px black;
+    width: 1140px; 
+    height: 87%;
+    margin-left: 110px;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752363037/dorado_bvdruk.webp") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /*border: solid 5px white;*/
+    flex-direction: column;
+}
+.botones{
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5{
+    width: 150px;
+    height: 35px;
+    margin: 15px;
+    /*background-color: rgb(248, 208, 4);*/
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    cursor: pointer;
+}
+.btn1{
+    /*background-color: skyblue;*/
+    background-color: white;
+}
+.btn2{
+    /*background-color: turquoise;*/
+    background-color: rgb(185, 184, 184);
+}
+.btn3{
+    /*background-color: rgb(0, 247, 255);*/
+    background-color: rgb(148, 147, 147);
+}
+.btn4{
+    /*background-color: blue;*/
+    background-color: rgb(104, 104, 104);
+}
+.btn5{
+    /*background-color: darkblue;*/
+    background-color: black;
+}
+.btn6{
+    background-color: rgba(128, 128, 128, 0.902);
+    height: 25px;
+   /* width: 100px;*/
+}
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn6:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.chiqui{
+    display: flex;
+    flex-direction: row;
+}
+.bodychiqui, .bodychiqui2 {
+  border-top: solid 5px black;
+  margin-top:50px;
+  height: 250px;
+  width: 50%;
+  padding-left: 50px;
+  color: black;
+  font-family:sans-serif;
+}
+.bodychiqui{
+/*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752363037/dorado_bvdruk.webp");*/
+ background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752364074/trollface_sbrdlh.jpg");
+  background-size:cover;
+}
+.bodychiqui2{
+/*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752363826/desktop-wallpaper-silver-structure-background-silver-silver-background-silver-background_qlgxei.jpg")*/
+ background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752364155/bannernostalgia_llupl1.jpg");   
+}
+.teto{
+background-color: rgba(255, 0, 0, 0.741);
+width: 250px;
+}
+/*.bodychiqui:hover, .bodychiqui2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}*/
+/*.bodychiqui2{
+  border: solid 5px white; 
+  margin-top: 50px;
+  height: 250px;
+  width: 50%;
+}*/

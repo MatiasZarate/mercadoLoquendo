@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: 'courier', sans-serif; /*debo ver mas variedades o si puedo ponerlas en todo mennos el header*/
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1750548057/Central_Loquendo_City_cygssa.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 96vh;
+    width: 96vh;
+}
+.header{
+    height: 13%;
+    width: 1340px;
+    color: white;
+    background-color: black;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259614/ca08cff753ccdc0c5666300bfb821fce_m73w1d.jpg");
+    border: solid 5px black;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: /*37*/45%;
+}
+.titulo{
+    display:flex;
+    width:50%;
+   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-style:oblique;
+    font-weight: lighter;
+    text-decoration: overline; /*debo ver si puedo hacer la linea roja*/
+    text-decoration-color: red;
+}
+.rango{
+    display:flex;
+    width: 25%;
+}
+.body2{
+    border: solid 5px black;
+    width: 1140px; 
+    height: 87%;
+    margin-left: 110px;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1752363693/silver-metallic-background-free-photo_oqg363.jpg") !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    /*display: inline-block;*/
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+}
+.tituloo{
+    margin-left: 70px;
+}
+.buto{
+    background-color: red;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 85px;
+}
+.buto:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

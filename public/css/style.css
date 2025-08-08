@@ -1,0 +1,49 @@
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1750548057/Central_Loquendo_City_cygssa.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 96vh;
+    width: 96vh;
+}
+/*.ahitevas{
+    align-items: center;
+}*/
+.teto{
+    color:aliceblue;
+    background-color: rgba(0, 0, 0, 0.765);
+    /*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259614/ca08cff753ccdc0c5666300bfb821fce_m73w1d.jpg");*/
+    text-align: center;
+    width: 1335px;
+}
+.firma{
+    color: black !important;
+    background-color: turquoise;
+    width: 125px;
+    color: white;
+}
+.buton{
+    width:150px;
+    height: 35px;
+    margin-left: 570px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.buton:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.titulo{
+    width: 490px;
+    font-size: larger;
+    /*background-color: rgba(0, 0, 0, 0.58);*/
+    background-color: rgba(255, 255, 255, 0.7);
+    color: red;
+    margin-top: 150px;
+    margin-left: 420px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 560px;
+}

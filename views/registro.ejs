@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+     <meta charset="utf-8">
+     <title> MercadoLoquendo </title>
+     <link rel="stylesheet" href="../../css/registroysesion.css" >
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+<body class="body"> 
+<header class="header"> <div class="logo"> <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1751548918/Loquendo_logo_mmpkmh.png"> </div> <h1 class="titulo"> MERCADO LOQUENDERO </h1> <h2 class="rango"> rango: invitado</h2></header>
+<div class="body2">
+  <div class="caja">  <h1 class="tituloo"> REGISTRO </h1>
+
+ <% if (locals.errors) { locals.errors.forEach(error=> { %>
+                    <p>
+                        <%= error.msg %>
+                    </p>
+                    <% }) } %>
+
+     <div class="errores">
+    <ul></ul></div> 
+
+<form action="/registro" method="POST"  id="formularioRegistro" class="formularioRegistro">
+    <input type="text" placeholder="nombre de usuario" name="nombre" id="nombre" class="input" value="<%= locals.old && old.nombre %>"><br><br>
+    <input type="password" placeholder="contraseña" name="password" id="password" class="input" value="<%= locals.old && old.password %>"><br><br>
+   <!--  <input type="password" placeholder="repita la contraseña" name="password2" id="password2" class="input"><br><br>-->
+    <input type="email" placeholder="email" name="email" id="email" class="input" value="<%= locals.old && old.email %>"><br><br>
+    <input type="number" placeholder="edad" name="edad" id="edad" class="input" value="<%= locals.old && old.edad %>"><br><br>
+    <textarea name="desc" id="descripcion" class="input">descripcion</textarea><br><br>
+    <input type="text" placeholder="foto de perfil" name="imagen" id="imagen" class="input"><br><br>
+    <button type="submit" class="buto">crear cuenta</button>
+</form></div></div>
+
+<script src="/js/registro.js"> </script>
+</body>
+</html>
